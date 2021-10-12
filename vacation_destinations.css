@@ -1,0 +1,71 @@
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 18px;
+}
+
+body {
+	text-align: center;
+	font-family: Garamond,"Times New Roman",serif;
+}
+
+/* This piece of code centers all ordered and unordered lists.
+   The first declaration allows the picture to be displayed as a table.
+   Then, the margin property is set to auto, which centers the element.
+   Style position of the lists are changed to be inside, which centers the numbers or bullet points as well. */
+ol,ul {
+	display: table;
+	margin: auto;
+	list-style-position: inside;
+}
+
+li {
+	font-size: 18px;
+}
+
+/* This piece of code centers all tables. */
+table {
+	margin: auto;
+}
+
+td {
+	font-size: 18px;
+	text-align: center;
+}
+
+table,th,td {
+	    border: 1px solid black;
+}
+
+.bibliography {
+	color: white;
+	font-size: 13px;	
+}
+
+.section_headings {
+	font-size: 35px;
+}
+
+.link {
+	color: CornflowerBlue;
+	font-size: 18px;
+}
+
+/* This piece of code centers the image of the world map.
+   The first declaration allows the picture to be displayed as a block, like text elements are.
+   Then, the margin property is set to auto, which centers the element.*/
+   
+#homepage {
+	background-color: #95cccc;
+}
+
+#world_map {
+	display: block;
+	margin: auto;
+}
+
+#prompt {
+	font-size: 22px;
+}
